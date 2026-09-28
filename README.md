@@ -87,7 +87,7 @@ The static output is written to `artifacts/emotion-detector/dist/public`.
 
 ## Render Deployment
 
-`render.yaml` configures EmotionDetector as a Render Static Site. Render runs `npm run build` and serves `artifacts/emotion-detector/dist/public`.
+`render.yaml` configures EmotionDetector as a Render Static Site. Render runs the pnpm workspace build and serves `artifacts/emotion-detector/dist/public`.
 
 Use the **Deploy to Render** button above to create the Static Site from this repository. The Blueprint requires no environment variables, API keys, database, or paid service.
 

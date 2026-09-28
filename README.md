@@ -2,6 +2,8 @@
 
 EmotionDetector is a free, open-source browser application that estimates visible facial expressions from a webcam in real time. Camera frames stay in the browser; no video, face images, or biometric data are uploaded or stored.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/lavishrana443-jpg/EmotionDetector)
+
 ## Features
 
 - Real-time browser-side face detection and expression classification
@@ -86,6 +88,8 @@ The static output is written to `artifacts/emotion-detector/dist/public`.
 ## Render Deployment
 
 `render.yaml` configures EmotionDetector as a Render Static Site. Render runs `npm run build` and serves `artifacts/emotion-detector/dist/public`.
+
+Use the **Deploy to Render** button above to create the Static Site from this repository. The Blueprint requires no environment variables, API keys, database, or paid service.
 
 For a plain Render deployment outside this workspace, use:
 

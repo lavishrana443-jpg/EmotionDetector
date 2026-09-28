@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: emotion-detector
+    runtime: static
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter @workspace/emotion-detector run build
+    staticPublishPath: ./artifacts/emotion-detector/dist/public
+    pullRequestPreviewsEnabled: false
